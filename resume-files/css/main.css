@@ -1,0 +1,21 @@
+*{
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+.header{
+    text-align: center;
+}
+.project-divs {
+    height: 20vh;
+    padding-left: 10vw;
+
+}
+.educ-list{
+margin-left: 10vw;
+padding-top: 1vw;
+
+}
+.education-div {
+    margin: 8vh 0vh 0vh 10vw;
+}
+
+
