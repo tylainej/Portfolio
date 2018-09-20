@@ -11,11 +11,13 @@
 }
 .educ-list{
 margin-left: 10vw;
-padding-top: 1vw;
 
 }
 .education-div {
     margin: 8vh 0vh 0vh 10vw;
+}
+.about-section{
+    margin: 0vh 10vw;;
 }
 
 
