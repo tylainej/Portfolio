@@ -1,8 +1,18 @@
 *{
     font-family: ‘Lato’, arial, sans-serif;
 }
+body{
+    margin: 0 auto;
+}
 .header{
     text-align: center;
+    background-color: #1a1a1d;
+    color: blue;
+    height: 10vh;
+    padding-top: 2vh;
+}
+.contact{
+    margin: 5px;
 }
 .project-divs {
     height: 20vh;
@@ -18,6 +28,19 @@ margin-left: 10vw;
 }
 .about-section{
     margin: 0vh 10vw;;
+}
+.contact-section{
+    display: flex;
+    justify-content: flex-end;
+}
+.footer-div{
+    display: flex;
+    justify-content: space-evenly;
+    letter-spacing: .5vw;
+    background-color: #1a1a1d;
+    color: blue;
+    margin: 0 auto;
+    height: 10vh;
 }
 
 
