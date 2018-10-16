@@ -4,13 +4,10 @@
 body{
     margin: 0 auto;
     background: url('./images/backImage.jpeg');
-    /* color: whitesmoke; */
 
 }
 .header{
     text-align: center;
-    /* background-color: rgb(236, 158, 70); */
-
     height: 10vh;
     padding-top: 4vh;
 }
@@ -29,24 +26,17 @@ body{
     padding-left: 10vw;
     margin-left: 15vw;
 }
-/* .educ-list{
-margin-left: 10vw;
 
-}
-.education-div {
-    margin: 8vh 0vh 0vh 10vw;
-} */
 .about-section{
     margin: 5vh 30vw;
     font-size: 16pt;
-    /* border: solid blue; */
 }
-.links{
-    border: solid red;
+/* .links{
+
 }
 .links:hover{
     border: solid blue;
-}
+} */
 a:hover{
     cursor: pointer;
 }
@@ -63,14 +53,9 @@ a:hover{
     color: black;
     margin-top: 10vw;
     height: 10vh;
-    /* width: 100vw; */
     padding: 1vh;
     position: relative;
     border-top: solid orange 1px;
-}
-.foot{
-    /* margin: 10vw; */
-    /* border: solid blue; */
 }
 .screenshot{
     text-decoration: none;
