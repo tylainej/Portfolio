@@ -1,89 +1,195 @@
 *{
-    font-family: ‘Lato’, arial, sans-serif;
-}
-body{
+    font-family: 'Courier New', Courier, monospace;
     margin: 0 auto;
-    background: url('./images/backImage.jpeg');
 
 }
-.header{
-    text-align: center;
-    height: 10vh;
-    padding-top: 4vh;
+body{
+    background: url('./images/backImage.jpeg');
 }
-.contact{
+
+h1{
+    background-color: orange;
+    margin-bottom: 2vh;
+}
+@media screen and (min-width: 601px){
+    .header{
+        text-align: center;
+        height: 10vh;
+        padding-top: 4vh;
+        font-size: 20pt;
+    }
+
+.head-titles{
+    display: inline-flex;
+    justify-content: space-between;
+    padding-left: 5vh;
+    padding-right: 5vh;
+    margin-left: 1vw;
+    margin-right: 1vw;
+    margin-bottom: 2vh;
+    font-size: 14pt;
+    color: black;
+    /* border: solid white; */
+    text-decoration: none;}
+}
+@media screen and (max-width: 600px){
+    .header{
+        text-align: center;
+        height: 10vh;
+        padding-top: 4vh;
+        font-size: 4vw;
+    }
+
+    .head-titles{
+        display: inline-flex;
+        justify-content: space-between;
+        font-size: 14pt;
+        padding-left: 1vh;
+        padding-right: 1vh;
+        margin-left: 1vw;
+        margin-right: 1vw;
+        margin-bottom: 2vh;
+        text-decoration: none;
+    }
+}
+
+/* .contact{
     margin: 5px;
     margin-right: 5vw;
 }
 .contact1{
     margin: 5px;
-}
+} */
 .about-div{
     margin-top: 10vh;
 }
-.project-divs {
-    height: 40vh;
-    padding-left: 10vw;
-    margin-left: 15vw;
-}
+
 
 .about-section{
-    margin: 5vh 30vw;
-    font-size: 16pt;
+    margin: 10vh 30vw;
+    padding-top: 6vh;
+    font-size: 12pt;
+    /* border: solid white; */
 }
-/* .links{
 
+#contact-border{
+    border-left: solid white 1px;
+    border-right: solid white 1px;
 }
-.links:hover{
-    border: solid blue;
+/* #project-border{
+    border-right: solid white 1px;
+
 } */
+a{
+    text-decoration: none;
+    color: black;
+}
+
 a:hover{
     cursor: pointer;
+    background-color: orange;
 }
-.contact-section{
-    margin: 5px;
-    margin-right: 5vw;
-    float: right;
-}
-.footer-div{
-    display: flex;
-    justify-content: space-evenly;
-    letter-spacing: .5vw;
-    background-color: rgb(236, 158, 70);
-    color: black;
-    margin-top: 10vw;
-    height: 10vh;
-    padding: 1vh;
-    position: relative;
-    border-top: solid orange 1px;
-}
-.screenshot{
-    text-decoration: none;
-    padding: 2vh;
-    display: inline-grid;
-    margin: 0px 1vw 0px 1vw;
-    border: solid black;
-    color: black;
-    background-color: rgb(236, 158, 70); 
-}
-.site_title{
-    align-self: center;
-}
-.mid-section{
+
+
+
+
+/* .mid-section{
     display: grid;
     position: absolute;
     overflow: hidden;
-}
+} */
 .me_pic{
     border-radius: 100px;
     border: solid black;
-    width: 150px;
-    height: 150px;
+    width: 100px;
+    height: 100px;
     background: url('./images/TylaineJeffreyWDI.png') no-repeat;
     background: cover;
     margin-top: 6vh;
     margin-left: 13vw;
     color: black;
+    border: solid orange;
 }
 
 
+/* footer info across pages */
+/* screen adjustment for less that 600px screens */
+@media screen and (max-width: 600px){
+    .links-footer{
+        color: black;
+        display: inline-flex;
+        margin: 2vh;
+    }
+    
+    .footer-div{
+        /* display: flex;
+        justify-content: space-between; */
+        letter-spacing: .5vw;
+        background-color: rgb(236, 158, 70);
+        color: black;
+        margin-top: 10vw;
+        height: 10vh;
+        padding: 2vh;
+        position: relative;
+        /* border-top: solid orange 1px; */
+    }
+}
+/* screen adjustment for more that 600px screens */
+@media screen and (min-width: 601px){
+    .links-footer{
+        color: black;
+        display: inline-flex;
+    }
+    .footer-div{
+        display: flex;
+        justify-content: space-between;
+        letter-spacing: .5vw;
+        background-color: rgb(236, 158, 70);
+        color: black;
+        margin-top: 10vw;
+        height: 5vh;
+        padding: 2vh;
+        position: relative;
+        border-top: solid orange 1px;
+    }
+}
+
+
+
+/* project page info */
+/* smaller screen details */
+@media screen and (max-width: 600px){
+    .project-divs {
+        height: 40vh;
+        padding-left: 10vw;
+        margin: 11vw 10vw;
+        width: 30vh;
+    
+    }
+    .screenshot{
+        text-decoration: none;
+        padding: 1vh;
+        margin: 7vh 1vw 0px 1vw;
+        border: solid black;
+        color: black;
+        background-color: rgb(236, 158, 70); 
+}
+}
+/* bigger screen details */
+@media screen and (min-width: 601px){
+    .project-divs {
+    height: 40vh;
+    padding-left: 10vw;
+    margin: 11vw 10vw;
+
+}
+.screenshot{
+    text-decoration: none;
+    padding: 2vh;
+    display: inline-grid;
+    margin: 7vh 1vw 0px 1vw;
+    border: solid black;
+    color: black;
+    background-color: rgb(236, 158, 70); 
+}
+}
