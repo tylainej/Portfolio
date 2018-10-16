@@ -1,46 +1,84 @@
 *{
     font-family: ‘Lato’, arial, sans-serif;
+    /* background-color: rgb(236, 158, 70); */
+    background-image: url('css/images/back_image.jpg');
+    background-image: cover;
 }
 body{
     margin: 0 auto;
+    /* background-image: url('css/images/back_image.jpg');
+    background-image: cover; */
 }
 .header{
     text-align: center;
-    background-color: #1a1a1d;
-    color: blue;
+    background-color: rgb(236, 158, 70);
+    color: black;
     height: 10vh;
-    padding-top: 2vh;
+    padding-top: 4vh;
 }
 .contact{
     margin: 5px;
+    margin-right: 5vw;
+}
+.contact1{
+    margin: 5px;
 }
 .project-divs {
-    height: 20vh;
+    height: 40vh;
     padding-left: 10vw;
-
+    border: solid purple;
+    position: relative;
 }
-.educ-list{
+/* .educ-list{
 margin-left: 10vw;
 
 }
 .education-div {
     margin: 8vh 0vh 0vh 10vw;
-}
+} */
 .about-section{
-    margin: 0vh 10vw;;
+    margin: 0vh 10vw;
+    /* border: solid blue; */
 }
 .contact-section{
     display: flex;
     justify-content: flex-end;
+    /* border: solid yellow; */
 }
 .footer-div{
     display: flex;
     justify-content: space-evenly;
     letter-spacing: .5vw;
-    background-color: #1a1a1d;
-    color: blue;
-    margin: 0 auto;
+    background-color: rgb(236, 158, 70);
+    color: black;
+    margin-top: 10vw;
     height: 10vh;
+    width: 100vw;
+    padding: 1vh;
+    position: relative;
+    /* border: solid brown; */
+}
+.foot{
+    /* margin: 10vw; */
+    /* border: solid blue; */
+
+}
+.screenshot{
+    text-decoration: none;
+    padding: 2vh;
+    display: inline-grid;
+    border:solid black;
+    /* position: absolute; */
+}
+.site-title{
+    align-self: center;
+
+}
+.mid-section{
+    display: grid;
+    border: solid red;
+    position: relative;
+    overflow: hidden;
 }
 
 
