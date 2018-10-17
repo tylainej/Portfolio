@@ -28,9 +28,13 @@ h1{
     margin-right: 1vw;
     margin-bottom: 2vh;
     font-size: 14pt;
-    /* border: solid white; */
-    text-decoration: none;}
+    text-decoration: none;
 }
+    .article{
+        margin-top: 7vh;
+    }
+}
+
 @media screen and (max-width: 600px){
     .header{
         text-align: center;
@@ -75,8 +79,8 @@ h1{
 }
 
 #contact-border{
-    border-left: solid #ff7f00 1px;
-    border-right: solid #ff7f00 1px;
+    border-left: solid red 1px;
+    border-right: solid red 1px;
 }
 /* #project-border{
     border-right: solid white 1px;
@@ -85,12 +89,10 @@ h1{
 a{
     text-decoration: none;
 }
-.nav-bar{
-    /* background-color: rgb(236, 158, 70); */
-}
+
 .head-titles:hover{
     cursor: pointer;
-    background-color: #ff7f00;
+    background-color: red;
 }
 
 .me_pic{
@@ -99,8 +101,7 @@ a{
     height: 100px;
     background: url('./images/TylaineJeffreyWDI.png') no-repeat;
     background: cover;
-    margin: 0vh 0vw 7vh 5vw;
-    /* border: solid orange; */
+    margin: 0vh 0vw 1vh 5vw;
 }
 
 
@@ -136,12 +137,9 @@ a{
         justify-content: space-between;
         letter-spacing: .5vw;
         background-color: #39343d;
+        height: 15vh;
+        padding-top: 5vh;
         margin-top: 10vw;
-        height: 5vh;
-        padding: 2vh;
-        position: relative;
-        
-        /* border-top: solid orange 1px; */
     }
 }
 
@@ -180,4 +178,117 @@ a{
 section{
     margin-left: 15vw;
 }
+}
+
+
+/* contact information page */
+
+.me_pic_contact{
+    border-radius: 100px;
+    width: 100px;
+    height: 100px;
+    background: url('./images/TylaineJeffreyWDI.png') no-repeat;
+    background: cover;
+    margin: 0vh 3vw 1vh 1vw;
+}
+.submit:hover{
+    background-color: red;
+    color: white;
+}
+@media screen and (min-width: 601px){
+    .text-field-container{
+    display: flex;
+margin-left: 1vw;
+}
+
+.textField{
+    font-size: 14pt;
+    margin: 2vh 0;
+    width: 11vw;
+    border-radius: 9px;
+    color: black;
+
+}
+.message{
+    height: 19vh;
+    width: 35vw;
+    margin-left: 1vw; 
+    font-size: 14pt;
+    color: black;
+    border-radius: 12px;
+    padding-left: 1vw;
+    margin-bottom: 2vh;
+}
+.submit{
+    font-size: 14pt;
+    color: red;
+    background-color: white;
+    border: solid red 2px;
+    border-radius: 6px;
+    width: 9vw;
+    float: right;
+}
+
+.form-section{
+    margin: 10vh 22vw 10vh 21vw;
+    padding: 6vh;
+    font-size: 12pt;
+    display: flex;
+    opacity: .8;
+    border-radius: 80px;
+    
+}
+
+ .links-aside{
+     display: inline-flex;
+ }
+ .contactForm{
+     margin-top: 7vh;
+ }
+
+}
+
+@media screen and (max-width: 600px){
+    
+    .textField{
+        font-size: 14pt;
+        margin: 2vh 1vw;
+        width: 38vw;
+        border-radius: 9px;
+        padding-left: 1vw;
+        color: black;
+
+    }
+    .message{
+        height: 17vh;
+        width: 38vw;
+        margin-left: 1vw; 
+        font-size: 14pt;
+        color: black;
+        border-radius: 12px;
+        padding-left: 1vw;
+    
+    }
+    .submit{
+        font-size: 14pt;
+        color: red;
+        background-color: white;
+        border: solid red 2px;
+        border-radius: 6px;
+        float: right;
+        width: 18vw;
+        margin-top: 1vh;
+
+    } 
+    .links-aside{
+        display: inline-flex;
+        margin: 0 0 0 8vw;
+    }
+    .form-section{
+        margin: 10vh 25vw 10vh 16vw;
+        padding: 6vh;
+        font-size: 12pt;
+        opacity: .8;
+        border-radius: 80px;
+    }
 }
