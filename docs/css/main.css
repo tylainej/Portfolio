@@ -103,7 +103,10 @@ a {
 
 .head-titles:hover {
     cursor: pointer;
-    background-color: red;
+    padding: 1vw;
+    border-bottom: solid white 2px;
+    /* text-decoration: underline; */
+    /* box-shadow: 5px 10px black; */
 }
 
 
@@ -159,26 +162,29 @@ a {
 
 /* smaller screen details */
 
-@media screen and (max-width: 800px) {
+@media screen and (max-width: 900px) {
     .project-divs {
-        height: 60vw;
-        /* padding-left: 5vw; */
-        margin: 5vw 4vw 15vw 10vw;
-        /* width: 30vh; */
+        height: 190vw;
+        padding: 5vw 10vw;
+        margin: 7vw 4vw 15vw 15vw;
+        /* border: solid blue; */
+        width: 100%;
     }
     .screenshot {
         text-decoration: none;
         padding: 1vh;
-        margin: 3vh 1vw 3vw 1vw;
+        margin: 3vw 1vw 3vw 1vw;
         line-height: 6vw;
+        /* border: solid yellow; */
     }
     .screenshot-container {
-        height: 75vw;
+        height: 175vw;
         /* padding-top: 4vw; */
         /* padding-left: 4vw; */
-        margin: 2vw 0vw;
+        margin: 2vw 1vw;
         overflow: scroll;
         display: grid;
+        width: 100%;
         /* grid-template-columns: 40% 50%; */
         /* grid-row-gap: 8%; */
     }
@@ -187,9 +193,9 @@ a {
 
 /* bigger screen details */
 
-@media screen and (min-width: 801px) {
+@media screen and (min-width: 901px) {
     .project-divs {
-        height: 65vw;
+        height: 75vw;
         /* padding-top: 4vw; */
         /* padding-left: 4vw; */
         /* padding-right: 4vw; */
