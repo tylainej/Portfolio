@@ -14,7 +14,7 @@
         <h1>tylainejeffrey.com</h1>
         <div class="nav-bar">
             <nav class="head-titles"><a href="../index.html">Home</a></nav>
-            <nav class="head-titles" id="contact-border"><a href="./contact.php">Contact</a></nav>
+            <nav class="head-titles" id="contact-border"><a href="./contact.html">Contact</a></nav>
             <nav class="head-titles" id="project-border"><a href="./projects.html">Projects</a></nav>
         </div>
     </header>
@@ -51,7 +51,19 @@
             </div>
         </aside>
 
-        <form class="contactForm" action="contactForm.php" method="post">
+        <h1>Contact Me</h1>
+        <form class="cf">
+            <div class="half left cf">
+                <input class="input-contact" type="text" id="input-name" placeholder="Name">
+                <input class="input-contact" type="email" id="input-email" placeholder="Email address">
+                <input class="input-contact" type="text" id="input-subject" placeholder="Subject">
+            </div>
+            <div class="half right cf">
+                <textarea id="textarea_contact" name="message" type="text" id="input-message" placeholder="Message"></textarea>
+            </div>
+            <input type="submit" value="Submit" id="input-submit">
+        </form>
+        <!-- <form class="contactForm" action="contactForm.php" method="post">
             <div class="text-field-container">
 
                 <div>
@@ -69,7 +81,7 @@
 
             <div>
                 <button class="submit" type="submit" width="30" value="Send">Send</button></div>
-        </form>
+        </form> -->
 
     </div>
     <footer class="footer-div">
